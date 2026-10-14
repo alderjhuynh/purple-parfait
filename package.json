@@ -1,0 +1,42 @@
+{
+  "name": "purple-parfait",
+  "displayName": "Purple Parfait",
+  "description": "Dreamy pastel purple, two ways: airy cream for day, velvety cocoa for night. Soft, low-contrast, easy on the eyes.",
+  "version": "0.0.1",
+  "publisher": "auraea",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+    "keywords": [
+    "theme",
+    "color-theme",
+    "light theme",
+    "dark theme",
+    "pastel",
+    "purple",
+    "cream",
+    "cocoa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alderjhuynh/purple-parfait"
+  },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Parfait Cream",
+        "uiTheme": "vs",
+        "path": "./themes/ppcream.json"
+      },
+      {
+        "label": "Parfait Cocoa",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ppcocoa.json"
+      }
+    ]
+  }
+}
